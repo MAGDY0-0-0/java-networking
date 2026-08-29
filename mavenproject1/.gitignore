@@ -1,0 +1,46 @@
+﻿# ---- build output ----
+out/
+bin/
+target/
+build/
+dist/
+*.class
+*.jar
+!**/maven-wrapper.jar
+!**/src/main/**/out/
+!**/src/test/**/out/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# ---- IDE (machine-specific: this is what breaks a project when you move it) ----
+.idea/
+*.iml
+.vscode/
+.kotlin
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+.classpath
+.project
+.settings
+/nbproject/private/
+/nbbuild/
+/nbdist/
+/.nb-gradle/
+
+# ---- dependencies (regenerate: npm install) ----
+node_modules/
+
+# ---- python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ---- os / media ----
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.mp4
+*.mkv

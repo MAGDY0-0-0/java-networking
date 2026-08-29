@@ -1,0 +1,21 @@
+# build output
+out/
+bin/
+target/
+build/
+*.class
+*.jar
+!**/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings
+.classpath
+.project
+
+# os
+.DS_Store
+Thumbs.db
+Desktop.ini
